@@ -1,10 +1,10 @@
 Rails.application.routes.draw do
+  root "welcome#about"
+
   devise_for :users
 
   resources :messages
   resources :chatrooms, param: :slug
-
-  root to: 'chatrooms#show'
 
   # root to: 'rooms#show'
 
