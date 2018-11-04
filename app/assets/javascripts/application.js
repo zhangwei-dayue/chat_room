@@ -13,6 +13,9 @@
 //= require rails-ujs
 //= require jquery
 //= require jquery_ujs
-// = require turbolinks
+//= require turbolinks
+//= require bootstrap-sprockets
+//= require chatrooms
 //= require bootstrap/dropdown
-// = require_tree .
+//= require_tree ./channels
+// require_tree .
